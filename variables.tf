@@ -210,14 +210,3 @@ variable "expose_port" {
 
 }
 
-variable "root_url" {
-  type = string
-}
-
-variable "settings_param" {
-  type = string
-}
-
-variable "mongo_url" {
-  type = string
-}
