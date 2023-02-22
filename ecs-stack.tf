@@ -60,10 +60,6 @@ module "ecsFargate" {
 
   template_path = var.template_path
 
-  root_url       = var.root_url
-  mongo_url      = var.mongo_url
-  settings_param = var.settings_param
-
   ecs_task_execution_role_name  = var.ecs_task_execution_role_name
   serviceDiscoveryNameSpace     = var.serviceDiscoveryNameSpace
   service_discovery_serviceName = var.service_discovery_serviceName
